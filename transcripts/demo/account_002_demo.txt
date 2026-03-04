@@ -1,0 +1,50 @@
+DEMO CALL TRANSCRIPT
+Account ID: account_002
+Company: Blue River Plumbing
+Date: 2024-01-11
+Participants: Clara Sales Rep (Sarah), Client (Donna Marsh - Office Manager)
+
+---
+
+Sarah: Hi Donna, great to meet you! Tell me a bit about Blue River Plumbing.
+
+Donna: Hi Sarah! Sure. We're a residential and light commercial plumbing company out of Austin, Texas. We do everything — drain cleaning, water heater installs, leak repairs, bathroom remodels, the works.
+
+Sarah: Wonderful. What's your office address?
+
+Donna: 1102 Riverside Drive, Austin, TX 78704.
+
+Sarah: And your normal business hours?
+
+Donna: We're open Monday through Saturday, 8 AM to 5 PM Central Time. Sundays we're closed.
+
+Sarah: How do you handle emergency calls?
+
+Donna: So emergencies for us are burst pipes, sewage backups, and gas line issues. Those need immediate response any time of day.
+
+Sarah: Who do you route those emergencies to?
+
+Donna: Our lead plumber Carlos Mendez at 512-555-0287 is first. If he's unavailable, we have a second on-call, Priya Nair at 512-555-0413. If neither answers within 3 minutes, the agent should let the caller know a technician will call back within 20 minutes.
+
+Sarah: What about non-emergency after-hours?
+
+Donna: Take a message — name, number, and the issue. We'll call back the next morning.
+
+Sarah: Do you use any software for scheduling?
+
+Donna: We use Housecall Pro.
+
+Sarah: Any restrictions in Housecall Pro?
+
+Donna: Yes — don't book any jobs for commercial properties without checking with me first. Residential is fine to book directly.
+
+Sarah: Got it. Any other instructions for the agent?
+
+Donna: Always be warm and friendly — our customers are mostly homeowners who are already stressed. And please don't put people on hold for more than 30 seconds.
+
+Sarah: Perfect. We'll get the draft config over to you shortly!
+
+Donna: Thank you so much, Sarah!
+
+---
+END OF TRANSCRIPT

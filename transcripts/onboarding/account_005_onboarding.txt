@@ -1,0 +1,50 @@
+ONBOARDING CALL TRANSCRIPT
+Account ID: account_005
+Company: Elite Fire Protection
+Date: 2024-01-28
+Participants: Clara Onboarding Specialist (Tom), Client (Frank Nguyen - Owner)
+
+---
+
+Tom: Hi Frank! Let's go through the Elite Fire Protection onboarding. Any changes from the preliminary draft?
+
+Frank: Yes, a few important ones.
+
+Tom: Let's hear them.
+
+Frank: First, Tom Bradley is no longer with us. Our new primary on-call is Sandra Okafor at 678-555-0733.
+
+Tom: Got it — Sandra Okafor, 678-555-0733 as primary. Rachel Kim still backup?
+
+Frank: Yes Rachel's still there. Same number.
+
+Tom: Any hour changes?
+
+Frank: We now offer limited Saturday availability — 9 AM to 12 PM Eastern. For emergency inspections only, not regular jobs.
+
+Tom: Got it — Saturday 9 AM to 12 PM Eastern, emergencies only. I'll note that in the config.
+
+Frank: Next — the callback time. Change it from 15 minutes to 10 minutes for emergencies. Our clients are commercial buildings — every minute counts when a system may be down.
+
+Tom: Noted — 10 minute emergency callback window.
+
+Frank: Now a big one. We're switching from ServiceTrade to a new platform called Zuper. All the same restrictions apply — no auto-creating jobs for sprinkler or fire alarm work. Everything needs manual assignment from the compliance team.
+
+Tom: Understood — platform changes from ServiceTrade to Zuper, same restrictions apply. No auto-creation of sprinkler or fire alarm jobs.
+
+Frank: Also, add a new restriction — for any caller who mentions an active fire or smoke, the agent should immediately tell them to call 911 first before anything else. Don't try to collect job info in those cases.
+
+Tom: Very important — active fire or smoke triggers immediate 911 referral, no job info collection.
+
+Frank: Last thing — we want to add a fourth required field when collecting caller info. In addition to company name, contact name, and callback number, always collect the building's occupancy type. For example: office, warehouse, restaurant, hospital. It helps us dispatch the right tech.
+
+Tom: Got it — four required fields: company name, contact name, callback number, and building occupancy type.
+
+Frank: That's everything.
+
+Tom: These are great updates, Frank. V2 will reflect all of this. We'll have it to you shortly.
+
+Frank: Much appreciated. Thanks Tom.
+
+---
+END OF TRANSCRIPT

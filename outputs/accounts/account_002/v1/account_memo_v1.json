@@ -1,0 +1,53 @@
+{
+  "account_id": "account_002",
+  "company_name": "Blue River Plumbing",
+  "business_hours": {
+    "days": "Monday to Saturday",
+    "start": "8:00 AM",
+    "end": "5:00 PM",
+    "timezone": "Central Time"
+  },
+  "office_address": "1102 Riverside Drive, Austin, TX 78704",
+  "services_supported": [
+    "drain cleaning",
+    "water heater installs",
+    "leak repairs",
+    "bathroom remodels"
+  ],
+  "emergency_definition": [
+    "burst pipes",
+    "sewage backups",
+    "gas line issues"
+  ],
+  "emergency_routing_rules": [
+    {
+      "priority": 1,
+      "name": "Carlos Mendez",
+      "phone": "512-555-0287",
+      "wait_seconds": 180
+    },
+    {
+      "priority": 2,
+      "name": "Priya Nair",
+      "phone": "512-555-0413",
+      "wait_seconds": 180
+    }
+  ],
+  "emergency_fallback": "a technician will call back within 20 minutes",
+  "non_emergency_routing_rules": "take a message and call back the next morning",
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "retries": "no retries mentioned",
+    "if_transfer_fails": "not specified"
+  },
+  "integration_constraints": [
+    "don't book jobs for commercial properties without checking with Donna first"
+  ],
+  "after_hours_flow_summary": "take a message for non-emergencies, route emergencies to on-call plumbers",
+  "office_hours_flow_summary": "not fully specified",
+  "questions_or_unknowns": [
+    "office hours flow summary not fully specified",
+    "call transfer retries and failure handling not specified"
+  ],
+  "notes": "be warm and friendly, don't put people on hold for more than 30 seconds"
+}

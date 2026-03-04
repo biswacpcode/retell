@@ -1,0 +1,46 @@
+ONBOARDING CALL TRANSCRIPT
+Account ID: account_003
+Company: Comfort Zone Heating & Cooling
+Date: 2024-01-26
+Participants: Clara Onboarding Specialist (Tom), Client (Ron Patterson - Owner)
+
+---
+
+Tom: Hey Ron! Let's go through the Comfort Zone agent setup. I have the v1 draft ready.
+
+Ron: Sure. A couple of things came up that I want to adjust.
+
+Tom: Go ahead.
+
+Ron: So Danny — my son — he's changing his number. New number is 773-555-0299. Old one is being disconnected.
+
+Tom: Got it — Danny Patterson, new number 773-555-0299. Your number stays the same?
+
+Ron: Yes, my number stays the same.
+
+Tom: Any changes to business hours?
+
+Ron: Yeah, we're now closing at 4 PM on Fridays instead of 5 PM. We do team training on Friday afternoons.
+
+Tom: Got it — Monday to Thursday 8 AM to 5 PM, Friday 8 AM to 4 PM Central. Emergency definition?
+
+Ron: Add one more — heat pump failure for elderly customers should also be flagged as an emergency year-round. We've had a few scary situations.
+
+Tom: Adding heat pump failure for elderly customers as an emergency trigger.
+
+Ron: Good. Also, on the non-emergency after-hours — I said flag calls within 2 hours of opening as urgent. Make that 1 hour to be safe. So if a call comes in at 7 AM or later, flag it urgent.
+
+Tom: Understood — urgent flag for non-emergency messages received within 1 hour of opening at 8 AM.
+
+Ron: One more thing — we just started using a new tool called FieldPulse alongside ServiceTitan. For commercial jobs, log the request in FieldPulse too, not just ServiceTitan.
+
+Tom: Got it — log commercial jobs in both ServiceTitan and FieldPulse. No auto-scheduling still?
+
+Ron: Correct, still no auto-scheduling for commercial.
+
+Tom: Great, that covers all the updates. V2 will be ready shortly Ron.
+
+Ron: Thanks Tom. Appreciate the quick turnaround.
+
+---
+END OF TRANSCRIPT

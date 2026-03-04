@@ -1,0 +1,39 @@
+{
+  "account_id": "account_001",
+  "company_name": "Arctic Air HVAC",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": "Monday through Friday, 7 AM - 6 PM",
+      "new_value": "Monday through Saturday, 7 AM - 6 PM, Saturday ends at 2 PM",
+      "reason": "Added Saturday hours from 7 AM to 2 PM to meet increased demand"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": "Dave Kowalski at 720-555-0192",
+      "new_value": "Jason Park at 720-555-0887",
+      "reason": "Replaced Dave Kowalski with Jason Park as primary on-call technician"
+    },
+    {
+      "field": "call_transfer_rules",
+      "old_value": "try Dave Kowalski, then Linda Torres",
+      "new_value": "try Jason Park, then Linda Torres",
+      "reason": "Updated retry sequence to reflect new primary on-call technician"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": "don't create jobs for commercial refrigeration clients in ServiceTitan",
+      "new_value": "don't create jobs for any commercial clients in ServiceTitan",
+      "reason": "Expanded restriction to all commercial clients, requiring manual review by Linda"
+    },
+    {
+      "field": "notes",
+      "old_value": "don't promise specific arrival times, confirm caller's name and callback number before transferring or ending the call",
+      "new_value": "don't promise specific arrival times, confirm caller's name and callback number before transferring or ending the call, mention annual maintenance plans to non-emergency callers",
+      "reason": "Added instruction to mention annual maintenance plans to non-emergency callers"
+    }
+  ],
+  "summary": "Updated account configuration to reflect changes in business hours, on-call technician, and ServiceTitan integration constraints. The agent will now route calls according to the updated emergency routing rules, mention annual maintenance plans to non-emergency callers, and adhere to the expanded integration constraints for commercial clients."
+}

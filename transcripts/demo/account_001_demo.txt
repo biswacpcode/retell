@@ -1,0 +1,50 @@
+DEMO CALL TRANSCRIPT
+Account ID: account_001
+Company: Arctic Air HVAC
+Date: 2024-01-10
+Participants: Clara Sales Rep (Sarah), Client (Mike Delaney - Owner)
+
+---
+
+Sarah: Hi Mike, thanks for jumping on the call today! I'd love to learn a bit about Arctic Air so we can show you how Clara can help. Can you start by telling me what kind of services you offer?
+
+Mike: Sure! We're primarily an HVAC company. We do heating and cooling installs, maintenance contracts, and emergency repairs. We also handle refrigeration for a few commercial clients.
+
+Sarah: Great. And where are you located?
+
+Mike: We're based in Denver, Colorado. Our office is at 4820 Larimer Street, Denver, CO 80216.
+
+Sarah: Perfect. What are your normal business hours?
+
+Mike: Monday through Friday, 7 AM to 6 PM Mountain Time. We're closed weekends unless it's an emergency.
+
+Sarah: Speaking of emergencies — how do you define an emergency for your business?
+
+Mike: Good question. An emergency for us is anything that's a total system failure in extreme weather, or a refrigerant leak, or a carbon monoxide alarm going off. Basically, if someone's health or safety is at risk, or if a commercial client's refrigeration is down.
+
+Sarah: And when an emergency call comes in after hours, who do you want us to contact?
+
+Mike: First call goes to our on-call tech, Dave Kowalski. His number is 720-555-0192. If Dave doesn't pick up in 2 minutes, try our operations manager, Linda Torres at 720-555-0340. If Linda doesn't answer, the caller should be told we'll call back within 30 minutes and to call 911 if it's a life safety issue.
+
+Sarah: Got it. What about non-emergency after-hours calls?
+
+Mike: Just take a message. Collect their name, number, and a brief description. We'll call back next business day.
+
+Sarah: Do you use any field service software?
+
+Mike: Yeah, we use ServiceTitan for scheduling and job tracking.
+
+Sarah: Any restrictions on what the agent should or shouldn't do in ServiceTitan?
+
+Mike: Don't create jobs for commercial refrigeration clients — those need manual review by Linda before anything gets scheduled.
+
+Sarah: Understood. Anything else you want the agent to say or avoid saying?
+
+Mike: Just keep it professional. Don't promise specific arrival times, ever. And always confirm the caller's name and callback number before transferring or ending the call.
+
+Sarah: Awesome, Mike. This has been super helpful. We'll put together a preliminary agent configuration and share it with you before the onboarding call.
+
+Mike: Sounds great. Talk soon.
+
+---
+END OF TRANSCRIPT

@@ -1,0 +1,54 @@
+DEMO CALL TRANSCRIPT
+Account ID: account_005
+Company: Elite Fire Protection
+Date: 2024-01-14
+Participants: Clara Sales Rep (Sarah), Client (Frank Nguyen - Owner)
+
+---
+
+Sarah: Hi Frank, thanks for making time today. Tell me about Elite Fire Protection.
+
+Frank: Sure. We're a fire protection company based in Atlanta, Georgia. We do sprinkler system installation and inspection, fire alarm systems, and emergency suppression. Mostly commercial clients — office buildings, warehouses, restaurants.
+
+Sarah: What's your office address?
+
+Frank: 540 Peachtree Industrial Blvd, Atlanta, GA 30341.
+
+Sarah: Business hours?
+
+Frank: Monday through Friday, 8 AM to 5 PM Eastern. We do have emergency on-call for after hours.
+
+Sarah: What qualifies as an emergency for you?
+
+Frank: Active sprinkler failure — meaning a head is triggered or a pipe burst in the system. Fire alarm panel malfunctions. Anything that could leave a building unprotected. Those are serious compliance and safety issues.
+
+Sarah: Emergency routing?
+
+Frank: First call is to our lead inspector Tom Bradley at 678-555-0291. If Tom doesn't answer in 2 minutes, call our on-call technician Rachel Kim at 678-555-0447. If Rachel doesn't pick up either, tell the caller to immediately contact the local fire department and that we will call back within 15 minutes.
+
+Sarah: Non-emergency after hours?
+
+Frank: Message only. Name, company name, callback number, and description of the issue. We'll follow up next business day.
+
+Sarah: Any field service software?
+
+Frank: We use ServiceTrade for job management.
+
+Sarah: Any restrictions?
+
+Frank: Absolutely — never create a sprinkler inspection job in ServiceTrade directly. Those require a licensed inspector to be assigned manually by our compliance team. The agent can take the request but must NOT create the job.
+
+Sarah: What about fire alarm jobs?
+
+Frank: Same rule. Take the request, log it, do not create the job in ServiceTrade.
+
+Sarah: Any other instructions?
+
+Frank: Always get the company name, not just a personal name. Our clients are businesses. And always ask for the building address — we need it for every job.
+
+Sarah: That's really helpful. We'll have a draft ready soon.
+
+Frank: Thanks Sarah. Looking forward to it.
+
+---
+END OF TRANSCRIPT

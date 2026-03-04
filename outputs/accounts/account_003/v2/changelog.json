@@ -1,0 +1,39 @@
+{
+  "account_id": "account_003",
+  "company_name": "Comfort Zone Heating & Cooling",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": "Monday to Friday, 8:00 AM to 5:00 PM, Central",
+      "new_value": "Monday to Thursday, Friday, 8:00 AM to 5:00 PM, 4:00 PM on Fridays, Central",
+      "reason": "Team training on Friday afternoons"
+    },
+    {
+      "field": "emergency_routing_rules - Danny Patterson phone",
+      "old_value": "773-555-0158",
+      "new_value": "773-555-0299",
+      "reason": "Danny's old number is being disconnected"
+    },
+    {
+      "field": "emergency_definition",
+      "old_value": "no heat in winter, no AC when it's over 95 degrees, gas smell, boiler failures for commercial accounts",
+      "new_value": "no heat in winter, no AC when it's over 95 degrees, gas smell, boiler failures for commercial accounts, heat pump failure for elderly customers",
+      "reason": "Added heat pump failure for elderly customers as an emergency trigger"
+    },
+    {
+      "field": "non_emergency_routing_rules",
+      "old_value": "flag calls within 2 hours of opening as urgent",
+      "new_value": "flag calls within 1 hour of opening as urgent",
+      "reason": "To be safe and ensure timely response"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": "don't schedule commercial HVAC jobs automatically in ServiceTitan",
+      "new_value": "don't schedule commercial HVAC jobs automatically in ServiceTitan, log commercial jobs in both ServiceTitan and FieldPulse",
+      "reason": "Started using FieldPulse alongside ServiceTitan for commercial jobs"
+    }
+  ],
+  "summary": "Updated business hours to reflect Friday team training, changed Danny Patterson's phone number, added heat pump failure for elderly customers as an emergency trigger, adjusted non-emergency routing rules to flag calls within 1 hour of opening as urgent, and updated integration constraints to log commercial jobs in both ServiceTitan and FieldPulse."
+}

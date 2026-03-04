@@ -1,0 +1,46 @@
+ONBOARDING CALL TRANSCRIPT
+Account ID: account_004
+Company: Desert Storm AC
+Date: 2024-01-27
+Participants: Clara Onboarding Specialist (Tom), Client (Yolanda Reyes - Operations Manager)
+
+---
+
+Tom: Hi Yolanda! Let's lock in the Desert Storm AC configuration. Any updates from the demo call?
+
+Yolanda: A few. Let me go through them.
+
+Tom: Please go ahead.
+
+Yolanda: Omar Khalil — he's still primary on-call, but his number changed. New number is 602-555-0901.
+
+Tom: Got it — Omar Khalil, new number 602-555-0901. Maria Flores still backup?
+
+Yolanda: Yes. Maria's the same.
+
+Tom: Any changes to hours?
+
+Yolanda: We're actually adding limited Saturday hours year-round now — 9 AM to 1 PM Arizona Time, regardless of season. So summer is still 7 days 7 AM to 8 PM, but off-season changes from Monday-Friday to Monday-Saturday, with Saturday being 9 to 1.
+
+Tom: Got it. I'll update the seasonal schedule accordingly.
+
+Yolanda: Also, for the emergency flow — when we tell the caller to go somewhere cool, be more specific. Say "please go to a neighbor's home, a nearby store, or a public library." We've had customers not understand what we meant.
+
+Tom: Great clarification — I'll add specific examples of cool places.
+
+Yolanda: One more change on the ServiceTitan side. We're now also tracking pool equipment repairs in Google Sheets, not ServiceTitan. So same rule — don't create ServiceTitan jobs for pool equipment clients either.
+
+Tom: Understood — commercial refrigeration AND pool equipment clients are Google Sheets only, no ServiceTitan jobs.
+
+Yolanda: Exactly. And last thing — we want the agent to always confirm the service zone before accepting a job request. We don't service anything more than 35 miles from central Phoenix.
+
+Tom: Got it — confirm service zone within 35 miles of Phoenix before proceeding. 
+
+Yolanda: Perfect. That's all the changes.
+
+Tom: Great updates Yolanda. V2 will be ready in no time.
+
+Yolanda: Wonderful, thank you!
+
+---
+END OF TRANSCRIPT

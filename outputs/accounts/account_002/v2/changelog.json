@@ -1,0 +1,45 @@
+{
+  "account_id": "account_002",
+  "company_name": "Blue River Plumbing",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": "Monday to Saturday, 8:00 AM to 5:00 PM",
+      "new_value": "Monday to Sunday, 8:00 AM to 5:00 PM, 10:00 AM to 3:00 PM on Sundays",
+      "reason": "Added Sunday hours to accommodate increased Sunday calls"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": "Priya Nair",
+      "new_value": "Marcus Webb",
+      "reason": "Updated backup on-call contact"
+    },
+    {
+      "field": "emergency_routing_rules_phone",
+      "old_value": "512-555-0413",
+      "new_value": "512-555-0601",
+      "reason": "Updated phone number for backup on-call contact"
+    },
+    {
+      "field": "emergency_fallback",
+      "old_value": "20 minutes",
+      "new_value": "30 minutes",
+      "reason": "Adjusted callback time to a more realistic guarantee"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": "don't book jobs for commercial properties without checking with Donna first",
+      "new_value": "don't book any jobs automatically, all bookings require manual review",
+      "reason": "Tightened rules to prevent auto-booking and reduce no-shows"
+    },
+    {
+      "field": "notes",
+      "old_value": "be warm and friendly, don't put people on hold for more than 30 seconds",
+      "new_value": "be warm and friendly, don't put people on hold for more than 30 seconds, always ask the caller if they're a new or existing customer",
+      "reason": "Added question to prioritize customer calls"
+    }
+  ],
+  "summary": "Updated business hours to include Sundays, changed backup on-call contact to Marcus Webb, adjusted emergency fallback callback time to 30 minutes, tightened integration constraints to require manual review of all bookings, and added a question to prioritize customer calls."
+}

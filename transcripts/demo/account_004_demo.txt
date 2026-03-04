@@ -1,0 +1,46 @@
+DEMO CALL TRANSCRIPT
+Account ID: account_004
+Company: Desert Storm AC
+Date: 2024-01-13
+Participants: Clara Sales Rep (James), Client (Yolanda Reyes - Operations Manager)
+
+---
+
+James: Hi Yolanda! Excited to chat today. Tell me about Desert Storm AC.
+
+Yolanda: Hi! So we're an AC and refrigeration company based in Phoenix, Arizona. Mostly residential AC repair and maintenance, but we also service restaurants and grocery stores for commercial refrigeration.
+
+James: What's your office address?
+
+Yolanda: 2250 East McDowell Road, Phoenix, AZ 85006.
+
+James: Business hours?
+
+Yolanda: We're open seven days a week during summer — May through September — 7 AM to 8 PM Arizona Time. In the off-season, October through April, it's Monday to Friday, 8 AM to 5 PM.
+
+James: Interesting seasonal hours. How do you handle emergencies?
+
+Yolanda: AC down in summer Phoenix is always an emergency — that's life-threatening for elderly or sick residents. Commercial refrigeration failures are also emergencies, since restaurants can lose thousands in food. So those are our two main triggers.
+
+James: Emergency routing?
+
+Yolanda: Primary on-call is our senior tech, Omar Khalil, at 602-555-0374. Backup is our dispatch supervisor, Maria Flores, at 602-555-0512. If neither answers in 2 minutes, tell the caller we'll call back in 30 minutes. If it's a residential emergency in summer, also tell them to go somewhere cool if possible and we'll prioritize them.
+
+James: After-hours non-emergency?
+
+Yolanda: Message only. Name, number, brief description. Next business day callback.
+
+James: Software?
+
+Yolanda: We use ServiceTitan for residential. For commercial refrigeration accounts, we track separately in a Google Sheet — please never create a ServiceTitan job for a commercial refrigeration client.
+
+James: Anything else?
+
+Yolanda: Always confirm the caller's address — not just their name and number. In Phoenix, we need the address to estimate drive time and check if it's in our service zone.
+
+James: Got it. We'll get a draft config over to you!
+
+Yolanda: Perfect, thank you James.
+
+---
+END OF TRANSCRIPT

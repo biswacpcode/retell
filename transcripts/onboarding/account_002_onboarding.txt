@@ -1,0 +1,46 @@
+ONBOARDING CALL TRANSCRIPT
+Account ID: account_002
+Company: Blue River Plumbing
+Date: 2024-01-25
+Participants: Clara Onboarding Specialist (Tom), Client (Donna Marsh - Office Manager)
+
+---
+
+Tom: Hi Donna! Ready to finalize the setup for Blue River Plumbing?
+
+Donna: Yes! We went over the draft as a team and had a few notes.
+
+Tom: Let's go through them one by one.
+
+Donna: First — we changed our hours slightly. We added Sunday hours: 10 AM to 3 PM Central. We've been getting a lot of Sunday calls.
+
+Tom: So now it's Monday through Sunday — Monday to Saturday 8 AM to 5 PM, and Sunday 10 AM to 3 PM. Correct?
+
+Donna: Exactly.
+
+Tom: Any changes to emergency contacts?
+
+Donna: Yes. Priya Nair is no longer our backup on-call. Our new backup is Marcus Webb at 512-555-0601.
+
+Tom: Got it — Carlos Mendez primary, Marcus Webb backup.
+
+Donna: Right. Also, the callback time for when both are unavailable — change that from 20 minutes to 30 minutes. We realized 20 minutes was too aggressive for us to guarantee.
+
+Tom: Noted — 30 minute callback window. Any changes to Housecall Pro rules?
+
+Donna: Actually we want to tighten that. Don't book any jobs automatically at all now — residential or commercial. We want to review all bookings first. Too many no-shows from auto-booking.
+
+Tom: Understood — all bookings require manual review, no auto-scheduling.
+
+Donna: One more thing — we want the agent to always ask the caller if they're a new or existing customer. It helps us prioritize.
+
+Tom: Great. We'll add that as a required question early in the call flow.
+
+Donna: Perfect. That's everything.
+
+Tom: Wonderful Donna. V2 will be live shortly. We'll send you a confirmation.
+
+Donna: Thank you!
+
+---
+END OF TRANSCRIPT

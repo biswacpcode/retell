@@ -1,0 +1,54 @@
+{
+  "account_id": "account_003",
+  "company_name": "Comfort Zone Heating & Cooling",
+  "business_hours": {
+    "days": "Monday to Thursday, Friday",
+    "start": "8:00 AM",
+    "end": "5:00 PM, 4:00 PM on Fridays",
+    "timezone": "Central"
+  },
+  "office_address": "7733 West Belmont Avenue, Chicago, IL 60634",
+  "services_supported": [
+    "residential furnaces",
+    "ACs",
+    "heat pumps",
+    "boilers",
+    "commercial HVAC"
+  ],
+  "emergency_definition": [
+    "no heat in winter",
+    "no AC when it's over 95 degrees",
+    "gas smell",
+    "boiler failures for commercial accounts",
+    "heat pump failure for elderly customers"
+  ],
+  "emergency_routing_rules": [
+    {
+      "priority": 1,
+      "name": "Danny Patterson",
+      "phone": "773-555-0299",
+      "wait_seconds": 90
+    },
+    {
+      "priority": 2,
+      "name": "Ron Patterson",
+      "phone": "773-555-0021",
+      "wait_seconds": null
+    }
+  ],
+  "emergency_fallback": "we'll call back in 15 minutes and to call 911 if there's a gas smell",
+  "non_emergency_routing_rules": "take a message, handle it next business day, unless within 1 hour of opening then flag it as urgent in the notes",
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "retries": null,
+    "if_transfer_fails": null
+  },
+  "integration_constraints": [
+    "don't schedule commercial HVAC jobs automatically in ServiceTitan",
+    "log commercial jobs in both ServiceTitan and FieldPulse"
+  ],
+  "after_hours_flow_summary": "offer emergency service, take non-emergency messages for next business day",
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": "be polite but efficient, don't chit-chat too long, never quote prices on the phone"
+}

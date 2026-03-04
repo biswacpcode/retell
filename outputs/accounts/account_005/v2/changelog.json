@@ -1,0 +1,45 @@
+{
+  "account_id": "account_005",
+  "company_name": "Elite Fire Protection",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "business_hours",
+      "old_value": "Monday through Friday, 8 AM to 5 PM Eastern",
+      "new_value": "Monday through Friday, 8 AM to 5 PM Eastern, Saturday (9 AM to 12 PM Eastern for emergencies only)",
+      "reason": "Added Saturday availability for emergency inspections only"
+    },
+    {
+      "field": "emergency_routing_rules",
+      "old_value": "Tom Bradley at 678-555-0291",
+      "new_value": "Sandra Okafor at 678-555-0733",
+      "reason": "Replaced Tom Bradley with Sandra Okafor as primary on-call contact"
+    },
+    {
+      "field": "emergency_fallback",
+      "old_value": "tell the caller to immediately contact the local fire department and that we will call back within 15 minutes",
+      "new_value": "tell the caller to immediately contact the local fire department and that we will call back within 10 minutes",
+      "reason": "Reduced callback time from 15 minutes to 10 minutes for emergencies"
+    },
+    {
+      "field": "call_transfer_rules",
+      "old_value": "tell the caller to immediately contact the local fire department and that we will call back within 15 minutes",
+      "new_value": "tell the caller to immediately contact the local fire department and that we will call back within 10 minutes",
+      "reason": "Reduced callback time from 15 minutes to 10 minutes for emergencies"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": "never create a sprinkler inspection job in ServiceTrade directly, never create a fire alarm job in ServiceTrade directly",
+      "new_value": "never create a sprinkler inspection job in Zuper directly, never create a fire alarm job in Zuper directly",
+      "reason": "Switched from ServiceTrade to Zuper platform with same restrictions"
+    },
+    {
+      "field": "notes",
+      "old_value": "always get the company name and building address for every job",
+      "new_value": "always get the company name, building address, and building occupancy type for every job",
+      "reason": "Added building occupancy type as a required field for caller info"
+    }
+  ],
+  "summary": "Updated account_005 configuration to reflect changes in business hours, emergency routing rules, callback times, integration constraints, and required fields for caller info. The changes include adding Saturday availability for emergency inspections, replacing Tom Bradley with Sandra Okafor as primary on-call contact, reducing callback time from 15 minutes to 10 minutes, switching from ServiceTrade to Zuper platform, and adding building occupancy type as a required field."
+}

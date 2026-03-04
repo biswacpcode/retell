@@ -1,0 +1,46 @@
+ONBOARDING CALL TRANSCRIPT
+Account ID: account_001
+Company: Arctic Air HVAC
+Date: 2024-01-24
+Participants: Clara Onboarding Specialist (Tom), Client (Mike Delaney - Owner)
+
+---
+
+Tom: Hi Mike! This is the onboarding call to finalize your Clara agent setup. I've got your preliminary config in front of me. Let's go through it and make any adjustments.
+
+Mike: Sounds good. I actually had a few changes since we last spoke.
+
+Tom: Perfect, let's go through them.
+
+Mike: First, we hired a new on-call technician. Dave Kowalski left the company. Our new primary on-call is Jason Park at 720-555-0887.
+
+Tom: Got it — Jason Park, 720-555-0887. Is Linda Torres still the backup?
+
+Mike: Yes, Linda's still the backup. Same number.
+
+Tom: Great. Any changes to business hours?
+
+Mike: Yeah actually — we're now open Saturdays from 8 AM to 2 PM Mountain Time. We had enough demand to justify it.
+
+Tom: Got it — Monday through Saturday now, with Saturday ending at 2 PM. Emergency definition changes?
+
+Mike: No changes there.
+
+Tom: What about ServiceTitan restrictions?
+
+Mike: We actually expanded that. Now, don't auto-create jobs for ANY commercial clients, not just refrigeration. Linda needs to review all commercial work before scheduling.
+
+Tom: Understood — no auto-scheduling for any commercial clients. What about the agent's communication style?
+
+Mike: We want the agent to mention that we offer a service maintenance plan to every caller who's not calling about an emergency. Just a brief mention — "By the way, we offer annual maintenance plans, would you like more information?" at the end of the call.
+
+Tom: Great addition. Anything else to update?
+
+Mike: That's it for now. Everything else looked good on the draft.
+
+Tom: Perfect, Mike. We'll update the agent to v2 and get it live within 24 hours.
+
+Mike: Appreciate it, Tom.
+
+---
+END OF TRANSCRIPT

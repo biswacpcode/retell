@@ -1,0 +1,50 @@
+DEMO CALL TRANSCRIPT
+Account ID: account_003
+Company: Comfort Zone Heating & Cooling
+Date: 2024-01-12
+Participants: Clara Sales Rep (James), Client (Ron Patterson - Owner)
+
+---
+
+James: Hey Ron, thanks for your time today. Tell me about Comfort Zone.
+
+Ron: Yeah, so we're a heating and cooling company out of Chicago. Been in business 18 years. We do residential furnaces, ACs, heat pumps, boilers. Also do commercial HVAC for smaller office buildings.
+
+James: Great. What's your address?
+
+Ron: 7733 West Belmont Avenue, Chicago, IL 60634.
+
+James: Business hours?
+
+Ron: Monday to Friday, 8 AM to 5 PM Central. We offer emergency service after hours and on weekends.
+
+James: How do you define an emergency?
+
+Ron: No heat in winter — that's always an emergency in Chicago. No AC when it's over 95 degrees. Any kind of gas smell. And boiler failures for our commercial accounts.
+
+James: Who takes the emergency calls?
+
+Ron: My son Danny Patterson is on-call. His number is 773-555-0158. If Danny doesn't answer in 90 seconds, call my cell — 773-555-0021. If I don't answer either, the agent should tell the caller we'll call back in 15 minutes and to call 911 if there's a gas smell.
+
+James: Non-emergency after-hours?
+
+Ron: Take a message, we'll handle it next business day. Unless it's within 2 hours of opening — then flag it as urgent in the notes.
+
+James: Do you use field service software?
+
+Ron: We use ServiceTitan.
+
+James: Any rules around ServiceTitan?
+
+Ron: Don't schedule commercial HVAC jobs automatically. Those need my sign-off. Residential is fine.
+
+James: Any other notes for the agent?
+
+Ron: Be polite but efficient. Don't chit-chat too long. Customers are calling because they have a problem, not to make friends. Also, never quote prices on the phone.
+
+James: Understood. We'll have a draft ready for your review soon, Ron.
+
+Ron: Perfect. Thanks James.
+
+---
+END OF TRANSCRIPT

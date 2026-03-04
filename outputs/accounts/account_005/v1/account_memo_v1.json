@@ -1,0 +1,50 @@
+{
+  "account_id": "account_005",
+  "company_name": "Elite Fire Protection",
+  "business_hours": {
+    "days": "Monday through Friday",
+    "start": "8 AM",
+    "end": "5 PM",
+    "timezone": "Eastern"
+  },
+  "office_address": "540 Peachtree Industrial Blvd, Atlanta, GA 30341",
+  "services_supported": [
+    "sprinkler system installation and inspection",
+    "fire alarm systems",
+    "emergency suppression"
+  ],
+  "emergency_definition": [
+    "active sprinkler failure",
+    "fire alarm panel malfunctions",
+    "anything that could leave a building unprotected"
+  ],
+  "emergency_routing_rules": [
+    {
+      "priority": 1,
+      "name": "Tom Bradley",
+      "phone": "678-555-0291",
+      "wait_seconds": 120
+    },
+    {
+      "priority": 2,
+      "name": "Rachel Kim",
+      "phone": "678-555-0447",
+      "wait_seconds": 120
+    }
+  ],
+  "emergency_fallback": "tell the caller to immediately contact the local fire department and that we will call back within 15 minutes",
+  "non_emergency_routing_rules": "message only with name, company name, callback number, and description of the issue",
+  "call_transfer_rules": {
+    "timeout_seconds": 120,
+    "retries": "one retry to the next contact in the emergency routing rules",
+    "if_transfer_fails": "tell the caller to immediately contact the local fire department and that we will call back within 15 minutes"
+  },
+  "integration_constraints": [
+    "never create a sprinkler inspection job in ServiceTrade directly",
+    "never create a fire alarm job in ServiceTrade directly"
+  ],
+  "after_hours_flow_summary": "emergency calls are routed to on-call contacts, non-emergency calls are messaged and followed up next business day",
+  "office_hours_flow_summary": "not specified",
+  "questions_or_unknowns": [],
+  "notes": "always get the company name and building address for every job"
+}

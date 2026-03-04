@@ -1,0 +1,48 @@
+{
+  "account_id": "account_004",
+  "company_name": "Desert Storm AC",
+  "business_hours": {
+    "days": "Monday to Friday (October to April), 7 days a week (May to September)",
+    "start": "8:00 AM (October to April), 7:00 AM (May to September)",
+    "end": "5:00 PM (October to April), 8:00 PM (May to September)",
+    "timezone": "Arizona Time"
+  },
+  "office_address": "2250 East McDowell Road, Phoenix, AZ 85006",
+  "services_supported": [
+    "residential AC repair",
+    "residential AC maintenance",
+    "commercial refrigeration"
+  ],
+  "emergency_definition": [
+    "AC down in summer",
+    "commercial refrigeration failures"
+  ],
+  "emergency_routing_rules": [
+    {
+      "priority": 1,
+      "name": "Omar Khalil",
+      "phone": "602-555-0374",
+      "wait_seconds": 120
+    },
+    {
+      "priority": 2,
+      "name": "Maria Flores",
+      "phone": "602-555-0512",
+      "wait_seconds": 120
+    }
+  ],
+  "emergency_fallback": "we'll call back in 30 minutes",
+  "non_emergency_routing_rules": "message only, next business day callback",
+  "call_transfer_rules": {
+    "timeout_seconds": 120,
+    "retries": "not specified",
+    "if_transfer_fails": "tell the caller we'll call back in 30 minutes"
+  },
+  "integration_constraints": [
+    "do not create ServiceTitan job for commercial refrigeration clients"
+  ],
+  "after_hours_flow_summary": "message only, next business day callback for non-emergencies",
+  "office_hours_flow_summary": "not specified",
+  "questions_or_unknowns": [],
+  "notes": "always confirm caller's address, prioritize residential emergencies in summer"
+}

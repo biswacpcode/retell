@@ -1,0 +1,50 @@
+{
+  "account_id": "account_004",
+  "company_name": "Desert Storm AC",
+  "version_from": "v1",
+  "version_to": "v2",
+  "changes": [
+    {
+      "field": "business_hours.days",
+      "old_value": "Monday to Friday (October to April), 7 days a week (May to September)",
+      "new_value": "Monday to Saturday (7 days in summer, May to September), Monday to Friday (October to April) with Saturday 9 AM to 1 PM year-round",
+      "reason": "Added limited Saturday hours year-round"
+    },
+    {
+      "field": "business_hours.start",
+      "old_value": "8:00 AM (October to April), 7:00 AM (May to September)",
+      "new_value": "7:00 AM (May to September), 8:00 AM (October to April), 9:00 AM (Saturdays year-round)",
+      "reason": "Updated start time to reflect new Saturday hours"
+    },
+    {
+      "field": "business_hours.end",
+      "old_value": "5:00 PM (October to April), 8:00 PM (May to September)",
+      "new_value": "8:00 PM (May to September), 5:00 PM (October to April), 1:00 PM (Saturdays year-round)",
+      "reason": "Updated end time to reflect new Saturday hours"
+    },
+    {
+      "field": "emergency_routing_rules[0].phone",
+      "old_value": "602-555-0374",
+      "new_value": "602-555-0901",
+      "reason": "Omar Khalil's phone number changed"
+    },
+    {
+      "field": "integration_constraints",
+      "old_value": [
+        "do not create ServiceTitan job for commercial refrigeration clients"
+      ],
+      "new_value": [
+        "do not create ServiceTitan job for commercial refrigeration clients",
+        "do not create ServiceTitan job for pool equipment clients"
+      ],
+      "reason": "Added pool equipment clients to the list of clients not to create ServiceTitan jobs for"
+    },
+    {
+      "field": "notes",
+      "old_value": "always confirm caller's address, prioritize residential emergencies in summer",
+      "new_value": "always confirm caller's address, prioritize residential emergencies in summer, confirm service zone within 35 miles of Phoenix before proceeding, when instructing caller to go somewhere cool, specify 'please go to a neighbor's home, a nearby store, or a public library'",
+      "reason": "Added instructions to confirm service zone and provide specific examples of cool places"
+    }
+  ],
+  "summary": "Updated business hours to include limited Saturday hours year-round, changed Omar Khalil's phone number, added pool equipment clients to the list of clients not to create ServiceTitan jobs for, and updated notes to include instructions to confirm service zone and provide specific examples of cool places."
+}

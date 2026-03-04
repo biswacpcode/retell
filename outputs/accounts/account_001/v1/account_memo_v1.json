@@ -1,0 +1,52 @@
+{
+  "account_id": "account_001",
+  "company_name": "Arctic Air HVAC",
+  "business_hours": {
+    "days": "Monday through Friday",
+    "start": "7 AM",
+    "end": "6 PM",
+    "timezone": "Mountain Time"
+  },
+  "office_address": "4820 Larimer Street, Denver, CO 80216",
+  "services_supported": [
+    "heating and cooling installs",
+    "maintenance contracts",
+    "emergency repairs",
+    "refrigeration for commercial clients"
+  ],
+  "emergency_definition": [
+    "total system failure in extreme weather",
+    "refrigerant leak",
+    "carbon monoxide alarm going off",
+    "health or safety at risk",
+    "commercial client's refrigeration is down"
+  ],
+  "emergency_routing_rules": [
+    {
+      "priority": 1,
+      "name": "Dave Kowalski",
+      "phone": "720-555-0192",
+      "wait_seconds": 120
+    },
+    {
+      "priority": 2,
+      "name": "Linda Torres",
+      "phone": "720-555-0340",
+      "wait_seconds": 120
+    }
+  ],
+  "emergency_fallback": "we'll call back within 30 minutes and to call 911 if it's a life safety issue",
+  "non_emergency_routing_rules": "take a message with name, number, and brief description, and call back next business day",
+  "call_transfer_rules": {
+    "timeout_seconds": 120,
+    "retries": "try Dave Kowalski, then Linda Torres",
+    "if_transfer_fails": "tell caller we'll call back within 30 minutes and to call 911 if it's a life safety issue"
+  },
+  "integration_constraints": [
+    "don't create jobs for commercial refrigeration clients in ServiceTitan"
+  ],
+  "after_hours_flow_summary": "emergency calls are routed to on-call tech, non-emergency calls are messaged and returned next business day",
+  "office_hours_flow_summary": "not specified",
+  "questions_or_unknowns": [],
+  "notes": "don't promise specific arrival times, confirm caller's name and callback number before transferring or ending the call"
+}
